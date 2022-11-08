@@ -8,9 +8,7 @@ class Footer extends React.Component {
             //If you need to edit JavaScript, go to src/index.js
 
             <footer>
-            <div className={"Placeholder"}>
-                <h1>Footer</h1>
-            </div>
+                <p> Copyright © 2022 Oryon Inc. All rights reserved. </p>    
             </footer>
         );
     }

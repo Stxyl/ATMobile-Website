@@ -7,11 +7,18 @@ class Header extends React.Component {
             //If you need to edit CSS, go to src/index.css
             //If you need to edit JavaScript, go to src/index.js
 
-            <header>
-            <div className={"Placeholder"}>
-                <h1>Header</h1>
+            <Header>
+        
+            <div className={"logo"}>
+
             </div>
-            </header>
+
+            <div className={"menu"}>
+                
+                <h2> menu </h2>
+            
+            </div>
+            </Header>
         );
     }
 }
