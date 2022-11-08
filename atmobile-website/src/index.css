@@ -1,12 +1,81 @@
 /*If text is styled then the CSS file is in use and currently working*/
+/* fonts */
 
-.Placeholder {
-  padding: 2px;
-  background: #00a1da;
+@font-face {
+  font-family: pro-thin;
+  src: url(C:\Users\katha\Documents\GitHub\ATMobile-Website\atmobile-website\src\fonts\pro-thin-text.otf);
+}
+
+@font-face {
+  font-family: pro-display-bold;
+  src: url(C:\Users\katha\Documents\GitHub\ATMobile-Website\atmobile-website\src\fonts\SF-Pro-Display-Bold.otf);
+}
+
+
+
+
+
+
+/* Header styling */ 
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+Header, footer {
+  position: absolute;
+  background-color: #262626;
+  width: 100%;
+  color: white;
+}
+
+Header {
+  height: 6vh;
+}
+
+.logo {
+  position: absolute;
+  margin-top: 1.8vh;
+  margin-left: 45%;
+}
+
+footer {
+  height: 12vh;
+  bottom: 0;
+
+}
+
+footer p{
+  font-family: pro-thin;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+
+}
+
+/* styling for the drop down menu */
+
+menu {
+  position: absolute;
+  left: 45%;
+  top: 50px;
+  color: white;
+  text-decoration: none;
   text-align: center;
-  line-height: 100px;
-  height: 150px;
-  vertical-align: middle;
-  font-family: "SF Pro";
-  font-size: 20px;
+}
+
+/* upper content styling */
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: dodgerblue;
+}
+
+h1 {
+  color: white;
+  font-family: pro-display-bold;
 }

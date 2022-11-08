@@ -9,9 +9,10 @@ class Home extends React.Component {
         //Happy Coding!
 
         <main>
-          <div className={"Placeholder"}>
-            <h1>Home</h1>
-            <p> am</p>
+          <div class="flex-container">
+          
+            <div> <h1> placeholder </h1> </div>
+          
           </div>
         </main>
 
