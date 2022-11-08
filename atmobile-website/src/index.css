@@ -3,12 +3,12 @@
 
 @font-face {
   font-family: pro-thin;
-  src: url(C:\Users\katha\Documents\GitHub\ATMobile-Website\atmobile-website\src\fonts\pro-thin-text.otf);
+  src: url(./fonts/pro-thin-text.otf);
 }
 
 @font-face {
   font-family: pro-display-bold;
-  src: url(C:\Users\katha\Documents\GitHub\ATMobile-Website\atmobile-website\src\fonts\SF-Pro-Display-Bold.otf);
+  src: url(./fonts/SF-Pro-Display-Bold.otf);
 }
 
 
@@ -48,7 +48,7 @@ footer {
 }
 
 footer p{
-  font-family: pro-thin;
+  font-family: pro-thin, serif;
   position: absolute;
   bottom: 0;
   left: 15%;
@@ -77,5 +77,5 @@ menu {
 
 h1 {
   color: white;
-  font-family: pro-display-bold;
+  font-family: pro-display-bold, serif;
 }
