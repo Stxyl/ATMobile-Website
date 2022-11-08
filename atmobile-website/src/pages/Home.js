@@ -11,6 +11,7 @@ class Home extends React.Component {
         <main>
           <div className={"Placeholder"}>
             <h1>Home</h1>
+            <p> am</p>
           </div>
         </main>
 
