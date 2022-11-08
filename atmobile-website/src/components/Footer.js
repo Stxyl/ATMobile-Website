@@ -8,7 +8,9 @@ class Footer extends React.Component {
             //If you need to edit JavaScript, go to src/index.js
 
             <footer>
-                <p> Copyright © 2022 Oryon Inc. All rights reserved. </p>    
+                <p> Copyright © 2022 Oryon Inc. All rights reserved.</p>    
+                <p id="nz-footer">New Zealand</p>    
+                
             </footer>
         );
     }

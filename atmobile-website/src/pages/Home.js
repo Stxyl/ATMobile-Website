@@ -9,10 +9,13 @@ class Home extends React.Component {
         //Happy Coding!
 
         <main>
+          <title>AT APP</title>
           <div class="flex-container">
           
-            <div> <h1> placeholder </h1> </div>
-          
+            <div> <h1 id="title"> AT Mobile </h1> </div>
+            <div> <h2 id="subtitle">All New, All Redesigned</h2> </div>
+   
+
           </div>
         </main>
 

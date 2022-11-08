@@ -8,8 +8,16 @@
 
 @font-face {
   font-family: pro-display-bold;
-  src: url(./fonts/SF-Pro-Display-Bold.otf);
+  src: url(./fonts/pro-display-bold.otf);
 }
+
+@font-face {
+  font-family: pro;
+  src: url(./fonts/pro.ttf);
+}
+
+
+
 
 
 
@@ -33,11 +41,12 @@ Header, footer {
 
 Header {
   height: 6vh;
+  top: 0;
 }
 
 .logo {
   position: absolute;
-  margin-top: 1.8vh;
+
   margin-left: 45%;
 }
 
@@ -55,15 +64,24 @@ footer p{
 
 }
 
+#nz-footer {
+  position: absolute;
+  left: 2000px;
+}
+
+
+
+
+
 /* styling for the drop down menu */
 
 menu {
   position: absolute;
-  left: 45%;
+  right: 45%;
   top: 50px;
   color: white;
   text-decoration: none;
-  text-align: center;
+  
 }
 
 /* upper content styling */
@@ -72,10 +90,22 @@ menu {
   display: flex;
   flex-direction: column;
   color: white;
-  background-color: dodgerblue;
+  
+  margin-top: 30vh;
+  width: 100vh;
 }
 
-h1 {
-  color: white;
-  font-family: pro-display-bold, serif;
+#title {
+  font-family: pro-display-bold;
+  font-size: 8vh; 
+  margin-left: 50%;
+  margin-bottom: 0px;
+}
+
+#subtitle {
+  font-family: pro;
+  margin-left: 51%;
+  margin-top: 0px;
+  font-size: 3.5vh;
+  font-weight: lighter;
 }

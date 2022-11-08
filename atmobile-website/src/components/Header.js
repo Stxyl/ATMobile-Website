@@ -7,10 +7,10 @@ class Header extends React.Component {
             //If you need to edit CSS, go to src/index.css
             //If you need to edit JavaScript, go to src/index.js
 
-            <Header>
+            <header>
         
             <div className={"logo"}>
-
+            <h1> LOGO </h1>
             </div>
 
             <div className={"menu"}>
@@ -18,7 +18,7 @@ class Header extends React.Component {
                 <h2> menu </h2>
             
             </div>
-            </Header>
+            </header>
         );
     }
 }
