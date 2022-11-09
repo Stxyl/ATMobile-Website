@@ -33,14 +33,16 @@ Header, footer {
 }
 
 Header {
-  height: 6%;
+  height: 7%;
   top: 0;
-
 }
 
-.logo {
+.logo img{
   position: absolute;
   margin-left: 45%;
+  top: 2px;
+  height: 6.5vh;
+  width: 4vw;
 }
 
 
@@ -105,16 +107,20 @@ menu {
   display: flex;
   justify-content: space-around;
   color: white;
-  margin-top: 30vh;
+  margin-top: 10vh;
   width: 100%;
   position: relative;
+  margin-bottom: 5px;
+  padding-bottom: 10vh;
 }
 
 .main-text-cont {
   color: white;
-  position: relative;
+  position: absolute;
   width: 30%;
-  right: 10%;
+  left: 34%;
+  height: 100%;
+  top: 0%;
 }
 
 
@@ -125,35 +131,39 @@ menu {
   padding: 0%;
   position: relative;
   width: 5em;
-  bottom: 30%;
-  right: 20%;
+  top: 5%;
+  right: 33%;
 }
 
 #subtitle {
   font-family: pro;
-  font-size: 3vw;
-  font-weight: lighter;
+  font-size: 2.3vw;
+  font-weight: 1;
   border-radius: 5px;
   padding: 0%;
   margin: 5%;
   position: relative;
   width: 10em;
-  bottom: 40%;
+  bottom: 0%;
   right: 24%;
 }
 
-#app-store {
-  position: absolute;
-
-  top: 0;
+.appstore {
+  position: relative;
+  left: 50%;
   padding: 0%;
   margin: 0%;
-  left: 20px;
-  
+  bottom: 0;
+  float: right;
 }
- 
-img {
-  left: 10%;
-  bottom: 45%;
+
+.image-cont {
   position: relative;
+  color: white;
+  width: fit-content;
+  left: 30%;
+  top: 4vh;
+
 }
+
+ 
