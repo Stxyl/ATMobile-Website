@@ -10,13 +10,22 @@ class Home extends React.Component {
 
         <main>
           <title>AT APP</title>
-          <div class="flex-container">
+          <div className="flex-container">
           
-            <div> <h1 id="title"> AT Mobile </h1> </div>
-            <div> <h2 id="subtitle">All New, All Redesigned</h2> </div>
-   
+            <div className="main-text-cont">
+            <h1 id="title"> AT Mobile </h1> 
+            <h2 id="subtitle">All New, All Redesigned</h2> 
+            
+            <div id="app=store">
+            </div> <img src='https://i.postimg.cc/kMR9Mr93/Download-on-the-App-Store-Badge-US-UK-blk-092917.png' alt="download on the app store" width={300} height={100} ></img> </div>
+            </div> 
 
-          </div>
+            
+            <div className="image-cont"> 
+            
+            </div>
+
+         
         </main>
 
     );

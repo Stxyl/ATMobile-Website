@@ -17,13 +17,6 @@
 }
 
 
-
-
-
-
-
-
-
 /* Header styling */ 
 
 body {
@@ -40,34 +33,56 @@ Header, footer {
 }
 
 Header {
-  height: 6vh;
+  height: 6%;
   top: 0;
+
 }
 
 .logo {
   position: absolute;
-
   margin-left: 45%;
 }
 
+
+
+/* footer styling */
+
 footer {
   height: 12vh;
-  bottom: 0;
-
+  bottom: 0px;
+  position: absolute;
+  display: flexbox;
 }
 
-footer p{
-  font-family: pro-thin, serif;
+#copyright {
+  font-family: pro-thin;
   position: absolute;
-  bottom: 0;
-  left: 15%;
-
+  left: 10%;
+  bottom: 0px;
 }
 
 #nz-footer {
+  float: right;
+  bottom: 0px;
+ 
+  right: 5%;
   position: absolute;
-  left: 2000px;
+  font-family: pro-thin;
 }
+
+@media (max-width: 530px) {
+  #nz-footer {
+    bottom: 20%;
+  }
+}
+@media (max-width: 390px) {
+  #nz-footer {
+    bottom: 0%;
+  }
+}
+
+
+
 
 
 
@@ -88,24 +103,57 @@ menu {
 
 .flex-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   color: white;
-  
   margin-top: 30vh;
-  width: 100vh;
+  width: 100%;
+  position: relative;
 }
+
+.main-text-cont {
+  color: white;
+  position: relative;
+  width: 30%;
+  right: 10%;
+}
+
 
 #title {
   font-family: pro-display-bold;
-  font-size: 8vh; 
-  margin-left: 50%;
+  font-size: 7vw; 
   margin-bottom: 0px;
+  padding: 0%;
+  position: relative;
+  width: 5em;
+  bottom: 30%;
+  right: 20%;
 }
 
 #subtitle {
   font-family: pro;
-  margin-left: 51%;
-  margin-top: 0px;
-  font-size: 3.5vh;
+  font-size: 3vw;
   font-weight: lighter;
+  border-radius: 5px;
+  padding: 0%;
+  margin: 5%;
+  position: relative;
+  width: 10em;
+  bottom: 40%;
+  right: 24%;
+}
+
+#app-store {
+  position: absolute;
+
+  top: 0;
+  padding: 0%;
+  margin: 0%;
+  left: 20px;
+  
+}
+ 
+img {
+  left: 10%;
+  bottom: 45%;
+  position: relative;
 }
