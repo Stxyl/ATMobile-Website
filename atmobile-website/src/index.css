@@ -103,7 +103,7 @@ menu {
 
 /* upper content styling */
 
-.flex-container {
+.flexcontainer {
   display: flex;
   justify-content: space-around;
   color: white;
@@ -111,59 +111,50 @@ menu {
   width: 100%;
   position: relative;
   margin-bottom: 5px;
-  padding-bottom: 10vh;
+  border: red solid 5px;
+  height: 1000px;
 }
-
-.main-text-cont {
-  color: white;
-  position: absolute;
-  width: 30%;
-  left: 34%;
-  height: 100%;
-  top: 0%;
-}
-
 
 #title {
   font-family: pro-display-bold;
   font-size: 7vw; 
-  margin-bottom: 0px;
-  padding: 0%;
-  position: relative;
-  width: 5em;
-  top: 5%;
-  right: 33%;
+  position: absolute;
+  width: 810px;
+  left: 20%;
+  border: green solid 5px;
 }
 
 #subtitle {
   font-family: pro;
   font-size: 2.3vw;
   font-weight: 1;
-  border-radius: 5px;
-  padding: 0%;
-  margin: 5%;
-  position: relative;
-  width: 10em;
-  bottom: 0%;
-  right: 24%;
+  position: absolute; 
+  border: rgb(13, 0, 128) solid 5px;
+  height: fit-content;
+  left: 24.5%;
+  top: 25%;
 }
 
 .appstore {
+  width: 10%;
+  height: 8%;
+  top: 39%;
+  left: 13%;
+  border: purple solid 5px;
   position: relative;
-  left: 50%;
-  padding: 0%;
-  margin: 0%;
-  bottom: 0;
-  float: right;
 }
 
-.image-cont {
-  position: relative;
-  color: white;
-  width: fit-content;
-  left: 30%;
-  top: 4vh;
 
+.appscreenshot {
+  
 }
 
- 
+
+
+
+@media (max-width: 900px) {
+  .image-cont img {
+    width: 80%;
+    height: 80%;
+  }
+}
