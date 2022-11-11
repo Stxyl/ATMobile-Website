@@ -1,0 +1,90 @@
+/* Header styling */
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+Header, footer {
+    position: absolute;
+    background-color: #262626;
+    width: 100%;
+    color: white;
+}
+
+/* Desktops and PCs*/
+@media screen and (max-width: 3542px) {
+    Header {
+        height: 5%;
+        top: 0;
+    }
+
+    .logo img{
+        position: absolute;
+        margin-left: 45%;
+        top: 17%;
+        height: 65px;
+        width: 65px;
+        padding: 3px;
+    }
+
+    .menu img{
+        position: absolute;
+        justify-content: left;
+        align-items: center;
+        margin-left: 1%;
+        height: 31px;
+        width: 42px;
+        margin-top: 1%;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    Header {
+        height: 7.5%;
+        top: 0;
+    }
+
+    .logo img{
+        position: absolute;
+        margin-left: 45%;
+        top: 3%;
+        height: 60px;
+        width: 60px;
+        padding: 3px;
+    }
+
+    .menu img{
+        margin-left: 1%;
+        height: 31px;
+        width: 31px;
+        margin-top: 1%;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    Header {
+        padding: 2px;
+        height: 5.5%;
+        top: 0;
+    }
+
+    .logo img{
+        position: absolute;
+        margin-left: 43%;
+        top: 7%;
+        height: 40px;
+        width: 40px;
+        padding: 3px;
+    }
+
+    .menu img{
+        margin-left: 3%;
+        height: 17px;
+        width: 28px;
+        margin-top: 4%;
+    }
+}

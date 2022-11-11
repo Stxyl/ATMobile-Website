@@ -1,0 +1,50 @@
+/* footer styling */
+
+footer {
+    height: 100px;
+    bottom: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#copyright {
+    font-family: pro-thin;
+    position: absolute;
+    left: 10%;
+    bottom: 0px;
+}
+
+#nz-footer {
+    float: right;
+    bottom: 0px;
+    right: 10%;
+    position: absolute;
+    font-family: pro-thin;
+}
+
+@media (max-width: 580px) {
+    #nz-footer {
+        right: 0.2%;
+    }
+    #copyright {
+        left: 0.2%;
+    }
+}
+
+@media (max-width: 460px) {
+    #nz-footer {
+        bottom: 25%;
+        right: 35%;
+    }
+    #copyright {
+        left: 7%;
+    }
+}
+
+@media (max-width: 377px) {
+    #nz-footer {
+        bottom: 40%;
+    }
+}

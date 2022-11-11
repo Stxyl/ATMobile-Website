@@ -1,5 +1,11 @@
 import React from 'react';
 
+//CSS File here
+import '../components/CSS/Header.css';
+
+//Images (Import images here)
+import line3horizontal from '../images/line3horizontal.svg';
+
 class Header extends React.Component {
     render() {
         return (
@@ -14,11 +20,11 @@ class Header extends React.Component {
             </div>
 
             <div className='menu'>
-                
-                <h2> = </h2>
-            
+                <img src={line3horizontal} alt="menu" />
             </div>
+
             </header>
+
         );
     }
 }
