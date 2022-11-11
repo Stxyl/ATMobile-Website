@@ -50,10 +50,12 @@ Header {
 /* footer styling */
 
 footer {
-  height: 12vh;
-  bottom: 0px;
+  height: 100px;
+  bottom: 1;
   position: absolute;
-  display: flexbox;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 
 #copyright {
@@ -66,20 +68,33 @@ footer {
 #nz-footer {
   float: right;
   bottom: 0px;
- 
-  right: 5%;
+  right: 10%;
   position: absolute;
   font-family: pro-thin;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 580px) {
   #nz-footer {
-    bottom: 20%;
+    right: 0.2%;
+  }
+  #copyright {
+    left: 0.2%;
   }
 }
-@media (max-width: 390px) {
+
+@media (max-width: 460px) {
   #nz-footer {
-    bottom: 0%;
+    bottom: 25%;
+    right: 35%;
+  }
+  #copyright {
+    left: 7%;
+  }
+}
+
+@media (max-width: 377px) {
+  #nz-footer {
+    bottom: 40%;
   }
 }
 
@@ -105,56 +120,80 @@ menu {
 
 .flexcontainer {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   color: white;
-  margin-top: 10vh;
+  margin-top: 6.5vh;
   width: 100%;
   position: relative;
-  margin-bottom: 5px;
-  border: red solid 5px;
   height: 1000px;
-}
-
-#title {
-  font-family: pro-display-bold;
-  font-size: 7vw; 
-  position: absolute;
-  width: 810px;
-  left: 20%;
-  border: green solid 5px;
-}
-
-#subtitle {
-  font-family: pro;
-  font-size: 2.3vw;
-  font-weight: 1;
-  position: absolute; 
-  border: rgb(13, 0, 128) solid 5px;
-  height: fit-content;
-  left: 24.5%;
-  top: 25%;
-}
-
-.appstore {
-  width: 10%;
-  height: 8%;
-  top: 39%;
-  left: 13%;
-  border: purple solid 5px;
-  position: relative;
-}
-
-
-.appscreenshot {
   
 }
 
+.textcont {
 
+  width: fit-content;
+  height: fit-content;
+  left: 25%;
+  position: relative;
+  top: 30%
+}
+
+
+.title {
+  font-family: pro-display-bold;
+  font-size: 7vw; 
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: pro;
+  font-size: 2.3vw;
+  font-weight: 1;
+  position: relative; 
+  padding: 0;
+  margin: 0;
+  height: 1em;
+  left: 14%;
+  bottom: 30px;
+}
+
+.appstore {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 30%;
+  bottom: 0;
+  width: 35%;
+  height: 10%;
+}
+
+.appcont {
+  height: fit-content;
+  top: 100px;
+  position: relative;
+  right: 15%;
+}
+.appscreenshot {
+  position: relative;
+
+}
 
 
 @media (max-width: 900px) {
-  .image-cont img {
+  .appscreenshot{
     width: 80%;
     height: 80%;
   }
+}
+
+/* mid content */
+
+.whiteband {
+  background-color: white;
+  position: relative;
+  height: 1000px;
+  width: 100%;
 }
