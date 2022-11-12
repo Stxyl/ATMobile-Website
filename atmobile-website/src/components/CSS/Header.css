@@ -12,79 +12,93 @@ Header, footer {
     width: 100%;
     color: white;
 }
+Header {
+    position: sticky;
+    z-index: 10;
+}
+
+
 
 /* Desktops and PCs*/
 @media screen and (max-width: 3542px) {
     Header {
-        height: 5%;
+        height: 75px;
         top: 0;
     }
 
     .logo img{
         position: absolute;
         margin-left: 45%;
-        top: 17%;
-        height: 65px;
-        width: 65px;
+        top: -2%;
+        height: 70px;
+        width: 70px;
         padding: 3px;
+        left: 1%;
     }
 
     .menu img{
-        position: absolute;
+        position: relative;
         justify-content: left;
         align-items: center;
         margin-left: 1%;
         height: 31px;
         width: 42px;
-        margin-top: 1%;
+        top: 20px;
     }
 }
 
 /* Tablets */
 @media screen and (min-width: 540px) and (max-width: 780px) {
     Header {
-        height: 7.5%;
+        height: 75px;
         top: 0;
     }
 
     .logo img{
         position: absolute;
         margin-left: 45%;
-        top: 3%;
-        height: 60px;
-        width: 60px;
+        top: -2%;
+        height: 70px;
+        width: 70px;
         padding: 3px;
+        left: 1%;
     }
 
     .menu img{
+        position: relative;
+        justify-content: left;
+        align-items: center;
         margin-left: 1%;
         height: 31px;
-        width: 31px;
-        margin-top: 1%;
+        width: 42px;
+        top: 20px;
     }
 }
 
-/* Tablets */
+/* Mobile Phones */
 @media screen and (min-width: 375px) and (max-width: 667px) {
     Header {
-        padding: 2px;
-        height: 5.5%;
+        height: 75px;
         top: 0;
     }
 
     .logo img{
         position: absolute;
-        margin-left: 43%;
-        top: 7%;
-        height: 40px;
-        width: 40px;
+        margin-left: 45%;
+        top: -2%;
+        height: 70px;
+        width: 70px;
         padding: 3px;
+        left: -3%;
     }
 
     .menu img{
-        margin-left: 3%;
-        height: 17px;
-        width: 28px;
-        margin-top: 4%;
+        position: relative;
+        justify-content: left;
+        align-items: center;
+        margin-left: .1%;
+        height: 31px;
+        width: 42px;
+        top: 20px;
     }
 }

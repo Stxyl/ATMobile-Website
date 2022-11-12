@@ -45,6 +45,12 @@ footer {
 
 @media (max-width: 377px) {
     #nz-footer {
+        bottom: 0%;
+    }
+}
+
+@media (max-width: 299px) {
+    #nz-footer {
         bottom: 40%;
     }
 }
