@@ -18,51 +18,31 @@
 
 
 
-
-
-
-
-
-
-
-/* styling for the drop down menu */
-
-menu {
-  position: absolute;
-  right: 45%;
-  top: 50px;
-  color: white;
-  text-decoration: none;
-  
-}
-
 /* upper content styling */
 
 .flexcontainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: white;
   margin-top: 6.5vh;
   width: 100%;
   position: relative;
   height: 1000px;
-  
 }
 
 .textcont {
-
   width: fit-content;
   height: fit-content;
-  left: 25%;
+  left: 3%;
   position: relative;
-  top: 30%
+  top: 18%;
 }
 
 
 .title {
   font-family: pro-display-bold;
-  font-size: 7vw; 
+  font-size: 10vw; 
   position: relative;
   padding: 0;
   margin: 0;
@@ -70,13 +50,13 @@ menu {
 
 .subtitle {
   font-family: pro;
-  font-size: 2.3vw;
+  font-size: 3.5vw;
   font-weight: 1;
   position: relative; 
   padding: 0;
   margin: 0;
   height: 1em;
-  left: 14%;
+  left: 12%;
   bottom: 30px;
 }
 
@@ -84,28 +64,173 @@ menu {
   padding: 0;
   margin: 0;
   position: relative;
-  left: 30%;
+  left: 34%;
   bottom: 0;
-  width: 35%;
-  height: 10%;
+  width: 15vw;
+  height: 5vw;
 }
 
 .appcont {
-  height: fit-content;
-  top: 100px;
+  top: 1%;
   position: relative;
-  right: 15%;
+  right: 2%;
+  width: 20%;
+  z-index: -1;
 }
 .appscreenshot {
   position: relative;
 
 }
-
-
-@media (max-width: 900px) {
-  .appscreenshot{
-    width: 80%;
-    height: 80%;
+@media screen and (max-width: 1600px) {
+    .textcont {
+      top: 20%;
+    }
+    .title {
+      font-size: 14vw;
+    }
+    .subtitle {
+      font-size: 5vw;
+    }
+    .appstore {
+      left: 40%;
+    }
+    .appcont {
+      width: auto;
+      right: -1%;
+      margin: 0;
+      height: fit-content;
+    }
+}
+@media screen and (max-width: 1200px) {
+  .textcont {
+    top: 30%;
+    left: 1%;
+  }
+  .title {
+    font-size: 12vw;
+  }
+  .subtitle {
+    font-size: 4vw;
+    left: 13%;
+    bottom: 20px;
+  }
+  .appstore {
+    left: 28%;
+    width: 24vw;
+    height: 8vw;
+    bottom: 5px;
+  }
+  .appcont {
+    width: auto;
+    right: -1%;
+    margin: 0;
+    height: fit-content;
+    top: 5%;
+  }
+}
+@media screen and (max-width: 870px) {
+  .textcont {
+    top: 30%;
+    left: 1%;
+  }
+  .title {
+    font-size: 10vw;
+  }
+  .subtitle {
+    font-size: 3vw;
+    left: 14%;
+    bottom: 12px;
+  }
+  .appstore {
+    left: 23%;
+    width: 24vw;
+    height: 8vw;
+    bottom: -5px;
+  }
+  .appcont {
+    width: auto;
+    right: -0%;
+    margin: 0;
+    height: fit-content;
+  }
+  .appscreenshot {
+   width: 350px;
+   height: 700px;
+   right: 0;
+  }
+  .flexcontainer {
+    margin-bottom: -100px;
+  }
+}
+@media screen and (max-width: 667px) {
+  .textcont {
+    top: 22%;
+    left: 1%;
+  }
+  .title {
+    font-size: 11vw;
+  }
+  .subtitle {
+    font-size: 4vw;
+    left: 4.5%;
+    bottom: 6px;
+  }
+  .appstore {
+    left: 26%;
+    width: 18vw;
+    height: 6vw;
+    bottom: -5px;
+  }
+  .appcont {
+    width: auto;
+    right: -0%;
+    margin: 0;
+    height: fit-content;
+    top: 8%;
+  }
+  .appscreenshot {
+   width: 200px;
+   height: 400px;
+   right: 0;
+  }
+  .flexcontainer {
+    margin-bottom: -300px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .textcont {
+    top: 22%;
+    left: 1%;
+  }
+  .title {
+    font-size: 11vw;
+  }
+  .subtitle {
+    font-size: 4vw;
+    left: 3.5%;
+    bottom: 4px;
+  }
+  .appstore {
+    left: 30%;
+    width: 18vw;
+    height: 6vw;
+    bottom: -8px;
+  }
+  .appcont {
+    width: auto;
+    right: -1%;
+    margin: 0;
+    height: fit-content;
+    top: 11%;
+  }
+  .appscreenshot {
+   width: 160px;
+   height: 320px;
+  }
+  .flexcontainer {
+    margin-bottom: -500px;
+    bottom: 30px;
+    margin-top: 0;
   }
 }
 

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: pro;
+    src: url(./fonts/pro.ttf);
+  }
+
 /* Header styling */
 
 body {
@@ -16,9 +21,47 @@ Header {
     position: sticky;
     z-index: 10;
 }
+/* styling for the drop down menu */
 
-
-
+.dropbtn {
+    background-color: #262626;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    height: 75px;
+  }
+ #sus {
+    top: 3px;
+ }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: pro;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #161616;}
+  
 /* Desktops and PCs*/
 @media screen and (max-width: 3542px) {
     Header {
@@ -36,7 +79,7 @@ Header {
         left: 1%;
     }
 
-    .menu img{
+    .dropdown img{
         position: relative;
         justify-content: left;
         align-items: center;
@@ -64,7 +107,7 @@ Header {
         left: 1%;
     }
 
-    .menu img{
+    .dropdown img{
         position: relative;
         justify-content: left;
         align-items: center;
@@ -76,7 +119,7 @@ Header {
 }
 
 /* Mobile Phones */
-@media screen and (min-width: 375px) and (max-width: 667px) {
+@media screen and (max-width: 667px) {
     Header {
         height: 75px;
         top: 0;
@@ -89,10 +132,10 @@ Header {
         height: 70px;
         width: 70px;
         padding: 3px;
-        left: -3%;
+        left: -2%;
     }
 
-    .menu img{
+    .dropdown img{
         position: relative;
         justify-content: left;
         align-items: center;
