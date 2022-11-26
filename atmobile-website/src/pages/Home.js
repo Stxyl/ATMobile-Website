@@ -15,7 +15,7 @@ class Home extends React.Component {
             <div className='textcont'>
             
               <h1 className='title'> AT Mobile </h1> 
-              <h2 className='subtitle'> All New, All Redesigned </h2> 
+              <h2 className='subtitle'> no more card bozo </h2> 
             
               <img className='appstore' src='https://i.postimg.cc/kMR9Mr93/Download-on-the-App-Store-Badge-US-UK-blk-092917.png' alt="download on the app store" width={300} height={100}></img> 
             
@@ -26,7 +26,11 @@ class Home extends React.Component {
           </div>
                    
           <div className='whiteband'>
-
+           <div className='walletcont'>
+            <h2 id='wallet'> Wallet Support </h2>
+            <h2 id='tag'> Tag on and off with your phone </h2>
+            <h2 id='learn'> Learn More </h2>
+           </div>
           </div>
         </main>
 

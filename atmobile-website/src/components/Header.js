@@ -16,7 +16,7 @@ class Header extends React.Component {
             <header>
         
             <div className='logo'>
-            <img src="https://yt3.ggpht.com/NFB9TV7mnQGxmZsTBt1x_5v0n84M7P6THXRtCy4XvRn7EtslzgakQuh4wqrYH6_r5LWGxnL4lsEfTQ=s640-c-fcrop64=1,00210000ffdeffff-nd-v1" alt="logo"></img>
+            <img src="https://i.postimg.cc/65n76C6F/AT-Logo-1.png" alt="logo"></img>
             </div>
 
             
