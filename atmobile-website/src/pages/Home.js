@@ -30,7 +30,12 @@ class Home extends React.Component {
             <h2 id='wallet'> Wallet Support </h2>
             <h2 id='tag'> Tag on and off with your phone </h2>
             <h2 id='learn'> Learn More </h2>
+            <img className='walletimg' src='https://i.postimg.cc/TwyqT6Q7/w.png' alt="screenshot of the wallet" ></img>
            </div>
+          </div>
+
+          <div className='lowercontent'>
+          
           </div>
         </main>
 

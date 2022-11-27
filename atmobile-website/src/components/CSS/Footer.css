@@ -26,10 +26,10 @@ footer {
 
 @media (max-width: 580px) {
     #nz-footer {
-        right: 0.2%;
+        right: 1%;
     }
     #copyright {
-        left: 0.2%;
+        left: 1%;
     }
 }
 

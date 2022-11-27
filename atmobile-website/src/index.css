@@ -239,7 +239,7 @@
 .whiteband {
   background-color: white;
   position: relative;
-  height: 1000px;
+  height: 830px;
   width: 100%;
   display: grid;
   justify-content: center;
@@ -270,7 +270,7 @@
   font-size: 50px;
   font-weight: 50;
   left: 115px;
-  top: -230px;
+  top: 0px;
 }
 
 #learn {
@@ -281,6 +281,22 @@
   margin: 0;
   color: #007FFF;
   font-size: 30px;
-  top: -480px;
-  left: 345px;
+  top: -10px;
+  left: 350px;
+}
+
+.walletimg {
+  left: 135px;
+  position: relative;
+  height: 500px;
+  bottom: -19px;
+}
+
+/* lower content styling */
+
+.lowercontent {
+  background-color: black;
+  height: 1000px;
+  width: 100%;
+  position: relative;
 }
